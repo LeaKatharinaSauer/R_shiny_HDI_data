@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head></head><body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="page-columns page-rows-contents page-layout-article">
+<div class="sidebar margin-sidebar">
+  <nav class="toc-active">
+    <h2>Table of contents</h2>
+   
+  <ul>
+  <li><a rel="noopener" href="#instructions" class="nav-link active">Instructions</a></li>
+  <li><a rel="noopener" href="#submission" class="nav-link">Submission</a></li>
+  <li><a rel="noopener" href="#how-to-get-the-data" class="nav-link">How to get the data:</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content">
+
+<header class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">STAT40830 - Final Project</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Isabella Gollini </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>This final project is based on the material up to topic 9.</p>
+<section class="level2">
+<h2 class="anchored">Instructions</h2>
+<p>Create a Shiny app to read and summarise the <em>Human Development Indicators</em> data.</p>
+<p>The Shiny app must allow for the following:</p>
+<ol type="1">
+<li><p>Allow the user to select data for at least one country given the countries names.</p></li>
+<li><p>Change the title depending on the country/countries selected.</p></li>
+<li><p>Display a table with part of the data. The user must be able to select the number of rows and the columns to be displayed.</p></li>
+<li><p>Produce <strong>two</strong> different plots showing different information each. The user must be able to change at least 3 input in each plot.</p></li>
+<li><p>The shiny app must have built-in data for at least 5 different countries.</p></li>
+<li><p>The shiny app must allow the user to upload any extra <em>Human Development Indicators</em> dataset (<code>hdro_indicators_COUNTRYNAME.csv</code>) downloaded from <a rel="noopener" href="https://data.humdata.org/dataset/?organization=undp-human-development-reports-office&amp;q=Human+Development+Indicators">data.humdata.org</a> from any available county (You can assume that all files have the same structure).</p></li>
+</ol>
+<p>Some notes:</p>
+<ul>
+<li>Notice that you can re-use some code you created for Assignment 1, Assignment 2, or create it from scratch.</li>
+<li>You can use functions from any R packages.</li>
+<li>Remember that in your Shiny app you must never have any file path specific to your computer.</li>
+</ul>
+</section>
+<section class="level2">
+<h2 class="anchored">Submission</h2>
+<p>Submission: upload on the <code>Final Project</code> assessment on Brightspace a <strong>zip file</strong> containing:</p>
+<ol type="1">
+<li>all the files needed to build the Shiny app (either R script or qmd files and the data), <em>(Submissions where we cannot reproduce the Shiny app will be capped at 30 points (i.e.&#160;50% of the final grade for this final project))</em></li>
+<li>an mp4 file containing a 1.5 minutes video screencast showing how your Shiny app works (any video lasting more than 2.5 minutes won’t be checked). <em>(You may want to use <a rel="noopener" href="https://handbrake.fr/downloads.php">HandBrake</a> to convert your file to mp4 or to reduce its size)</em></li>
+</ol>
+<ul>
+<li><p>Note that only your final submission will be marked.</p></li>
+<li><p>There are 60 marks for this assignment. This assignment is worth 60% of your final grade.</p></li>
+<li><p>Late submissions will score 0.</p></li>
+</ul>
+</section>
+<section class="level2">
+<h2 class="anchored">How to get the data:</h2>
+<p>(Same as Assignments 1 and 2) For the final project you will have to use the dataset of the <em>Human Development Indicators</em> for at least different countries of your choice from <a rel="noopener" href="https://data.humdata.org/dataset/?organization=undp-human-development-reports-office&amp;q=Human+Development+Indicators">data.humdata.org/dataset/?organization=undp-human-development-reports-office&amp;q=Human+Development+Indicators</a>:</p>
+<ul>
+<li>Click over <strong>COUNTRYNAME - Human Development Indicators</strong> and download the dataset called <strong>Human Development Indicators for COUNTRYNAME</strong> it will give you a <code>.csv</code> file. (The dataset contains the following variables: <code>country_code</code>, <code>country_name</code>, <code>indicator_id</code>, <code>indicator_name</code>, <code>index_id</code>, <code>index_name</code>, <code>value</code>, <code>year</code>.)</li>
+<li>repeat this procedure for at least a second country.</li>
+</ul>
+</section>
+
+</main>
+
+
+</div> 
+
+
+
+<script type="module" src="https://s.brightspace.com/lib/bsi/2024.7.190/unbundled/mathjax.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+						if (document.querySelector('math') || /\$\$|\\\(|\\\[|\\begin{|\\ref{|\\eqref{/.test(document.body.innerHTML)) {
+							document.querySelectorAll('mspace[linebreak="newline"]').forEach(elm => {
+								elm.setAttribute('style', 'display: block; height: 0.5rem;');
+							});
+
+							window.D2L.MathJax.loadMathJax({
+								outputScale: 1.5,
+								renderLatex: true,
+								enableMML3Support: false
+							});
+						}
+					});</script><script type="module" src="https://s.brightspace.com/lib/bsi/2024.7.190/unbundled/prism.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+					document.querySelectorAll('.d2l-code').forEach(code => {
+						window.D2L.Prism.formatCodeElement(code);
+					});
+				});</script><script type="module" src="https://s.brightspace.com/lib/bsi/2024.7.190/unbundled/embeds.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+					window.D2L.EmbedRenderer.renderEmbeds(document.body);
+				});</script></body></html>
