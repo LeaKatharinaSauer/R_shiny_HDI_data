@@ -93,7 +93,6 @@ LICENSE                           # Project license.
 ## Future Improvements
 
 - Add more customization options for the plots (e.g., themes, font sizes).
-- Provide additional filters for dataset selection (e.g., by region or income group).
 - Implement downloadable reports based on user-selected data and visualizations.
 
 ## Contribution
